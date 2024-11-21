@@ -48,6 +48,10 @@ models:
         +materialized: table
         +database: RAW
         +schema: GLOBLAMART
+        
+      TRANSFORM:
+        +enabled: true
+        +materialized: table
 
     SRINI:
         +enabled: true
