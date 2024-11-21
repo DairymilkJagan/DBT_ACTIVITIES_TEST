@@ -1,0 +1,1 @@
+select * from {{source("sources_globalmart2", "TEACHERS")}}

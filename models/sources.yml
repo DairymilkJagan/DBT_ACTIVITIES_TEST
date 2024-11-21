@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: sources_globalmart
+    database: RAW
+    schema: GLOBLAMART
+    tables:
+      - name: CUSTOMER
+      - name: ORDERS
+      - name: PRODUCT
+
+  - name: sources_globalmart2
+    database: ACTIVITY
+    schema: GLOBALMART
+    tables:
+      - name: CHILDREN
+      - name: STUDENTS
+      - name: TEACHERS
