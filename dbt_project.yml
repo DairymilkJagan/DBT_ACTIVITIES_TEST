@@ -48,8 +48,16 @@ models:
         +materialized: table
         +database: RAW
         +schema: GLOBLAMART
-        
+
       TRANSFORM:
+        +enabled: true
+        +materialized: table
+
+      REPORTING:
+        +enabled: true
+        +materialized: table
+
+      COMBINED:
         +enabled: true
         +materialized: table
 
@@ -58,4 +66,8 @@ models:
         +materialized: table
         +database: ACTIVITY
         +schema: GLOBALMART
+      
+        Merge:
+          +enabled: true
+          +materialized: table
 
