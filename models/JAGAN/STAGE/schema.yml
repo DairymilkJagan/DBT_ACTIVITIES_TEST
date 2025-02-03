@@ -1,5 +1,0 @@
-version: 2
-models:
-  - name: STAGE_ORDERS
-    config:
-      enabled: true
